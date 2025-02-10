@@ -28,7 +28,7 @@ Este código crea una tarjeta que muestra los detalles de un artículo de blog.
 
 
 ### Links
-- Solution URL: [Github](https://github.com/Mpadilla15/Practica/blob/main/HTML/Blog-preview-card/index.html)
+- Solution URL: [Github](https://github.com/Mpadilla16/Practica/blob/main/HTML/Blog-preview-card/index.html)
 - Live Site URL: [Add live site URL here](https://mpadilla16.github.io/Practica/HTML/Blog-preview-card/index.html)
 
 ## My process
@@ -52,7 +52,7 @@ Frontend Mentor Challenges https://www.frontendmentor.io/challenges/blog-preview
  
 ## Author
 Maria Angélica padilla: Este proyecto fue desarrollado por María Angélica Ádilla como parte de su proceso de aprendizaje en desarrollo frontend.
-- Frontend Mentor - [@Mpadilla16](https://www.frontendmentor.io/profile/Mpadilla15https://www.frontendmentor.io/profile/Mpadilla16)
+- Frontend Mentor - [@Mpadilla16](https://www.frontendmentor.io/profile/Mpadilla16)
 
 ## Acknowledgments
 Agradezco a Frontend Mentor por ofrecer desafíos prácticos que me permiten mejorar mis habilidades como desarrolladora web, y a la comunidad que brinda apoyo y retroalimentación en el proceso de desarrollo.
