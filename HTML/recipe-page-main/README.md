@@ -28,8 +28,8 @@ Este es el resultado final del proyecto de la pagina de recetas.
 ![Solucion mobil](Solucion-Mobil.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/Mpadilla15/Practica/blob/main/HTML/recipe-page-main/index.html)
-- Live Site URL: [Add live site URL here](https://mpadilla15.github.io/Practica/HTML/recipe-page-main/index.html)
+- Solution URL: [Add solution URL here](https://github.com/Mpadilla16/Practica/blob/main/HTML/recipe-page-main/index.html)
+- Live Site URL: [Add live site URL here](https://mpadilla16.github.io/Practica/HTML/recipe-page-main/index.html)
 
 ## My process
 
@@ -49,5 +49,5 @@ Deseo seguir aprendiendo ya que me cuesta mucho las caracteristicas responsivas 
 - [Bootstrap](https://getbootstrap.com/) 
 
 ## Author
-- Frontend Mentor - [@Mpadilla15](https://www.frontendmentor.io/profile/Mpadilla15)
-- Git hub- [Mpadilla15] (https://github.com/Mpadilla15/Practica/tree/main/HTML/recipe-page-main)
+- Frontend Mentor - [@Mpadilla16](https://www.frontendmentor.io/profile/Mpadilla16)
+
