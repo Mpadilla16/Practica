@@ -63,7 +63,7 @@ Frontend Mentor - Para el diseño base del reto.
 CSS-Tricks Flexbox Guide - Excelente recurso para profundizar en Flexbox.
 
 ## Author
-- Frontend Mentor - [@Mpadilla](https://www.frontendmentor.io/profile/Mpadilla15)
+- Frontend Mentor - [@Mpadilla16](https://www.frontendmentor.io/profile/Mpadilla16)
 
 
 ## Acknowledgments
