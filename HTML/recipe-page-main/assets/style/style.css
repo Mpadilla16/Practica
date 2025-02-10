@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+@font-face { /*****************Fuentes*****************/
+    font-family: 'Outfit';
+    src: url('../fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Rango de pesos de 100 a 900 */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young';
+    src: url('../fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400; /* Peso 400 para esta fuente */
+    font-style: normal;
+}
+
+.custom-Outfit {
+    font-family: 'Outfit'; 
+   
+}
+
+.custom-Young {
+    font-family: 'Young';
+}
+/***************Termino**************************/
+
+
+
+.fondo-body{/*******Clases para los colores**********/
+    background-color: hsl(30, 54%, 90%);
+}
+
+.Rosa {
+    background-color: hsl(335, 63%, 95%);
+    
+}
+
+.text-color-Rosa{
+    color: hsl(332, 51%, 32%); 
+}
+
+.custom-bullet::marker{ 
+    color: hsl(332, 51%, 32%); 
+
+}
+
+.text-brown{
+   color: hsl(14, 45%, 36%) !important; /* Texto color marron*/
+}
+
+.custom-bullet-brown::marker{
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+    font-weight: 700;   
+}
+/**************Termino*****************************/
+
+
+
+
+.text-muted {
+    font-size: 12px;
+}
+
+.custom-bullet{
+    font-size: 12px;
+}
+
+.custom-bullet-brown{
+    font-size: 12px;
+}
+
+.no-border {
+    border-color: none !important; /* Quita el borde inferior */
+  }
+  
+td{
+    font-size: 10px;
+    font-family: Outfit;
+    
+}

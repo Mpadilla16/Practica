@@ -1,0 +1,209 @@
+Algoritmo Calculadora
+	//Explicacion del programa//
+	Escribir "Este programa Calcula el Area, Perimetro, y Volumen"
+	Escribir "de las siguientes figuras geometricas"
+	Escribir "porfavor escoja una opcion digitando el numero correspondiente a cada figura"
+    //****************//
+	
+	//opciones//
+	Escribir "1.Cuadrado"
+	Escribir "2.Circulo"
+	Escribir "3.Rectangulo"
+	Escribir "4.Rombo"
+	Escribir "5.Poligono regular"
+	Escribir "6.Triangulo"
+	Escribir "7.Trapecio"
+	Escribir "8.Paralelograma"
+	Definir opci Como Entero
+	Leer opci
+	
+	
+	//variables de resultado//
+	
+	Definir area Como real
+	Definir perimetro Como Real
+	Definir volumen Como Real
+	//prooceso//
+	
+	Segun opci  Hacer
+		
+		1:  //Cuadrado//
+			//Solicitar informacion//
+			Definir lado Como real
+			Escribir "digite la medida de uno de los lados del cuadrado"
+			Leer lado
+			//Calculo//
+			area<-lado * lado
+			perimetro<- lado * 4
+			volumen <- lado ^ 3
+			//Resultado en pantalla//
+			Escribir "Area:", area
+			Escribir "Perimetro:" perimetro
+			Escribir "Volumen" volumen
+			
+		2:   //Circulo//
+			//Solicitar informacion//
+			Definir radio Como Real
+			Escribir  "Digite el Radio de su circulo"
+			Leer radio
+			//calculo//
+			area<-(radio ^ 2) * 3.14
+			perimetro<-2 * 3.14 *radio
+			volumen<-(4 / 3) * pi * (radio ^ 3)
+			//Resultado en pantalla//
+			Escribir "Area:", area
+			Escribir "Perimetro:" perimetro
+			Escribir "Volumen" volumen
+			
+		3:  //Circulo//
+			//Solicitar informacion//
+			Definir lado_a como real
+			Definir altura Como Real
+			Definir lado_b Como Real
+			Escribir " Digite el lado mas largo del rectangulo"
+			Leer lado_b
+			Escribir "Digite el lado mas corto del rectagulo"
+			Leer lado_a
+			Escribir "digite la altura del rectangulo"
+			Leer altura
+			//Calculo//
+			area<-lado_b * lado_a
+			perimetro<-(lado_a + lado_b) * 2
+			volumen<-lado_a * lado_b * altura
+			//Resultado en pantalla//
+			Escribir "Area:", area
+			Escribir "Perimetro:" perimetro
+			Escribir "Volumen" volumen
+			
+		De Otro Modo:
+			Segun opci Hacer
+				
+				4:  //Rombo//
+					//Solicitud de informacion//
+					Definir Diagonal_M Como Real
+					Definir Diagonal_N Como Real
+					Definir Lado_R Como Real
+					Definir Altura Como Real
+					Escribir "Digite la Diagonal Mayor"
+					Leer Diagonal_M
+					Escribir "Digite la Diagonal Menor"
+					Leer Diagonal_N
+					Escribir "Digite la medida de uno de sus lados"
+					Leer Lado_R
+					Escribir "Digite el Altura del prisma"
+					Leer Altura
+					//Calculo//
+					area<-(Diagonal_M * Diagonal_N)/2
+					perimetro<-Lado_R * 4
+					volumen<-area * Altura
+					//Resultado en pantalla//
+					Escribir "Area de la base:", area
+					Escribir "Perimetro:" perimetro
+					Escribir "Volumen:" volumen
+					
+				5:
+					//Poligono regular//
+					//Solicitud de informacion//
+					Definir N_lados Como Real
+					Definir Lado Como Real
+					Definir Apotema Como Real
+					Definir Altura como real
+					Escribir "Digite el numero de lados"
+					Leer N_lados
+					Escribir "Digite la medida de uno de sus lados"
+					Leer Lado
+					Escribir "Digite la Apotema"
+					Leer Apotema
+					Escribir "Digite la altura"
+					Leer  Altura
+					//Calculo//
+					perimetro<-N_lados * Lado
+					area<-(perimetro * Apotema)/2
+					volumen<-area * Altura
+					//Resultado en pantalla//
+					Escribir "Area de la base:", area
+					Escribir "Perimetro:" perimetro
+					Escribir "Volumen:" volumen
+				6:
+					//Triangulo//
+					//Solicitud de informacion//
+					Definir Base Como Real
+					Definir Altura Como Real
+					Definir lado_a como real
+					Definir lado_b Como Real
+					Escribir "Digite la base del Triangulo"
+					Escribir "La base de un triángulo es cualquiera de sus tres lados que se elija"
+					Escribir "para tomar como referencia al calcular el área." 
+					Leer Base
+					Escribir "Digite la Altura"
+					Leer Altura
+					Escribir "Digite el Lado a"
+					Leer lado_a
+					Escribir "Digite el Lado b"
+					Leer lado_b
+					//Calculo//
+					area<-(Base * Altura)/2
+					perimetro<- Base + lado_a + lado_b
+					volumen<- area * Altura
+					//Resultado en pantalla//
+					Escribir "Area:" area
+					Escribir "Perimetro:" perimetro
+					Escribir "Volumen" volumen
+				De Otro Modo:
+					Segun opci Hacer
+						7://Trapecio//
+							//Solicitud de informacion//
+							Definir Base_M Como Real
+							Definir Base_N Como Real
+							Definir Altura Como Real
+							Definir lado_a Como Real
+							Definir lado_b Como Real
+							Escribir " Digite la Base mayor"
+							Leer Base_M 
+							Escribir "Digite la Base menor"
+							Leer Base_N
+							Escribir "Digite la Altura"
+							Leer Altura
+							Escribir "Digite el lado uno de los lados paralelos"
+							Leer lado_a
+							Escribir "Digite el otro lado paralelo"
+							Leer lado_b
+							//Calculo//
+							area<-(Base_M + Base_N) * Altura /2
+							perimetro<-Base_M + Base_N + lado_a + lado_b
+							volumen<-area * Altura
+							//Resultados en pantalla//
+							Escribir "area:" area
+							Escribir "Perimetro:" perimetro
+							Escribir "Volumen" volumen
+						8://Paralelogramo//
+							//Solicitud de informacion//
+							Definir Base Como Real
+							Definir  Altura Como Real
+							Definir h Como Real
+							Definir lado_a Como Real
+							Definir lado_b Como Real
+							Escribir "Digite la Base del paralelograma"
+							Leer Base
+							Escribir "Digite la Altura altura perpendicular"
+							Leer  Altura
+							Escribir "Digite Altura del prisma (distancia entre las dos bases paralelográmicas)"
+							Leer h
+							Escribir "Digite el lado "
+							Leer lado_a
+							Escribir "Digite el otro lado"
+							Leer lado_b
+							//Calculo//
+							area<- Base * Altura
+							perimetro<-2 *(lado_a +lado_b)
+							volumen<-(Base * Altura) * h
+							//Resultado en pantalla//
+							Escribir "area:" area
+							Escribir "Perimetro:" perimetro
+							Escribir "Volumen" volumen
+						De Otro Modo:
+							Escribir "Esa opcion no existe, porfavor reinicie y vuelva a escoger la opcion"
+					Fin Segun
+			Fin Segun
+	Fin Segun
+FinAlgoritmo

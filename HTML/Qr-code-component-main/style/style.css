@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Fuentes*/
+@font-face{
+    font-family: Outfit;
+    src: url(/font/Outfit-VariableFont_wght.ttf);
+    font-weight: 100, 900;
+    font-style: normal;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%) !important;
+    height: 100vh;
+}
+
+h5{
+    font-family: Outfit;
+    
+}
+
+p{
+    font-family: Outfit;
+    color: hsl(216, 15%, 48%);
+    font-size: 13px;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%) !important;
+}
+
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+.text-verde{/*Clase para el color green*/
+    color: hsl(75, 94%, 57%) !important ; 
+}
+
+.card{/*Fondo para la card*/
+    background-color: hsl(0, 0%, 12%) !important;
+}
+
+.btn-color-gray{/*Color botones*/
+    background-color: hsl(0, 0%, 20%) !important;
+}
+
+a.btn:hover{ /*Cambio de color botones*/
+    background-color: hsl(75, 94%, 57%) !important;
+    color: black !important;
+}
+
+
+
+/*Estilo a los textos*/
+.card-title{ 
+    font-family: inter;
+    font-size: 20px;
+}
+
+p.card-subtitle{
+    font-family: inter;
+    font-size: 10px;
+}
+
+p.card-text{
+    font-family: inter;
+    font-size: 11px;
+    
+    
+}
+/*Fin estilo en los textos*/
+
+a.btn{
+    font-size: 12px;
+}

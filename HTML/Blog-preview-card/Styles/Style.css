@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+   
+}
+
+
+
+body{
+    background-color: hsl(47, 88%, 63%) !important;
+    height: 100vh;
+}
+
+
+/* Fuentes*/
+@font-face {  
+    font-family: Figtree;
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100 900; 
+}
+
+/*Clase para el color amarillo*/
+.bg-yelllow{
+    background-color: hsl(47, 88%, 63%) !important;
+} 
+
+
+.card{
+    /* Sombra */
+  -webkit-box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 0px 1px rgba(0,0,0,0.75);
+} 
+
+a.btn{
+    font-family: Figtree;
+    font-weight:800;
+    font-size: 15px;
+    padding: 3px 12px 3px 12px;    
+}
+
+p.fecha{
+    font-family: Figtree;
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+a.card-link{
+    font-family: Figtree;
+    font-weight: 800;
+    font-size: 18px;
+    
+
+}
+
+a.card-link:hover{
+    color: hsl(47, 88%, 63%) !important;
+    
+   
+}
+
+p.parrafo{
+    font-family: Figtree;
+    color:  hsl(0, 0%, 42%);
+    font-size: 12px;
+}
+
+p.Nombre{
+    font-family: Figtree;
+    font-size: 10px;
+    font-weight: 800;
+}
