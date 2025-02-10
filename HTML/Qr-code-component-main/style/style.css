@@ -6,7 +6,7 @@
 /*Fuentes*/
 @font-face{
     font-family: Outfit;
-    src: url(/font/Outfit-VariableFont_wght.ttf);
+    src: url(../font/Outfit-VariableFont_wght.ttf);
     font-weight: 100, 900;
     font-style: normal;
 }

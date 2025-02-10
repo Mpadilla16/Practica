@@ -22,8 +22,8 @@ Aquí presento la captura de pantalla del componente QR desarrollado como parte 
 ![Solucion](Solucion.jpeg)
 
 ### Links
-- Solution URL: [Github](https://github.com/Mpadilla15/Practica/blob/main/HTML/Qr-code-component-main/index.html)
-- Live Site URL: [Github](https://mpadilla15.github.io/Practica/HTML/Qr-code-component-main/index.html)
+- Solution URL: [Github](https://github.com/Mpadilla16/Practica/blob/main/HTML/Qr-code-component-main/index.html)
+- Live Site URL: [Github](https://mpadilla16.github.io/Practica/HTML/Qr-code-component-main/index.html)
 
 
 ## My process
@@ -50,8 +50,7 @@ Guía de Frontend Mentor
 CSS Tricks: Guía de Flexbox
 
 ## Author
-Soy María Angélica Ádilla, una apasionada por el desarrollo frontend en constante aprendizaje. Puedes encontrarme en:
-Frontend Mentor: Mpadilla15
+Soy María Angélica Padilla, una apasionada por el desarrollo frontend en constante aprendizaje. Puedes encontrarme en:Frontend Mentor:  https://www.frontendmentor.io/profile/Mpadilla16
 
 ## Acknowledgments
 Quiero agradecer a Frontend Mentor por crear desafíos tan interesantes que me ayudan a mejorar mis habilidades. También agradezco a los creadores de los recursos mencionados anteriormente, que fueron fundamentales para completar este proyecto.
