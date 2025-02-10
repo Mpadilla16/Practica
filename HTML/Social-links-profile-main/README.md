@@ -31,8 +31,8 @@ Este es el resultado final del proyecto de tarjeta de perfil con enlaces sociale
 
 ### Links
 
-- Solución en Frontend Mentor: (https://www.frontendmentor.io/profile/Mpadilla15)
-- Live Site URL: [Sitio en vivo](https://mpadilla15.github.io/Practica/HTML/Social-links-profile-main/index.html)
+- Solucion URL: [Solucion URL](https://github.com/Mpadilla16/Practica/blob/main/HTML/Qr-code-component-main/index.html)
+- Live Site URL: [Sitio en vivo](https://mpadilla16.github.io/Practica/HTML/Social-links-profile-main/index.html)
 
 ## My process
 
