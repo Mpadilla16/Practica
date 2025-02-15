@@ -9,7 +9,7 @@ body{
 
 @font-face {
     font-family: inter;
-    src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf");
+    src: url("../fonts/Inter-VariableFont_slnt\,wght.ttf");
     font-weight: 100 900;
     font-style: normal;
 }
@@ -36,22 +36,23 @@ a.btn:hover{ /*Cambio de color botones*/
 /*Estilo a los textos*/
 .card-title{ 
     font-family: inter;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 p.card-subtitle{
     font-family: inter;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 p.card-text{
     font-family: inter;
-    font-size: 11px;
-    
+    font-size: 12px;
     
 }
 /*Fin estilo en los textos*/
 
+/*Botones*/
 a.btn{
-    font-size: 12px;
+    font-size: 14px;
 }
+/*Fin botones*/
