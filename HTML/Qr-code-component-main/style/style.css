@@ -16,13 +16,14 @@ body{
     height: 100vh;
 }
 
-h5{
+.card-title{
     font-family: Outfit;
+    font-size: 17px;
     
 }
 
 p{
     font-family: Outfit;
     color: hsl(216, 15%, 48%);
-    font-size: 13px;
+    font-size: 12px;
 }
