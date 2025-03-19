@@ -29,6 +29,7 @@ body{
 a.btn:hover{ /*Cambio de color botones*/
     background-color: hsl(75, 94%, 57%) !important;
     color: black !important;
+    
 }
 
 
