@@ -1,0 +1,47 @@
+
+@font-face{
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Fraunces;
+    src: url(/fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card_article_producto{
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing:  10px;
+}
+
+.card_article_titulo{
+    font-family: Fraunces;
+    font-weight: 700;
+    
+}
+
+.card_article_descripcion{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.card_article_botones_descuento{
+    font-family: Fraunces;
+    font-weight: 700;
+}
+
+.card_article_botones_original{
+    font-family: Montserrat;
+    font-size: 12px;
+}
