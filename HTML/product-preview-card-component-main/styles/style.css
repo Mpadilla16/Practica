@@ -21,8 +21,8 @@ body{
 
 .card_article_producto{
     font-family: Montserrat;
-    font-size: 12px;
-    letter-spacing:  10px;
+    font-size: 10px;
+    letter-spacing:  5px;
 }
 
 .card_article_titulo{
@@ -44,4 +44,9 @@ body{
 .card_article_botones_original{
     font-family: Montserrat;
     font-size: 12px;
+}
+
+.article_button{
+    background-color: (158, 36%, 37%) !important;
+    color: white;
 }
