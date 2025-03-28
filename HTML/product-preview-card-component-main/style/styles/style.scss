@@ -1,4 +1,7 @@
-@import "~bootstrap/scss/bootstrap";
+@import "C:/Users/Maria/Desktop/Practica/node_modules/bootstrap/scss/bootstrap";
+
+
+
 
 
 
@@ -59,3 +62,18 @@ body {
     height: 40px;
     font-weight: 300; 
 }
+
+////  estilos pantallas lg en adelante
+@include media-breakpoint-between(lg, xxl) { 
+
+    .card_article_producto{
+        font-size: 12px;
+    }
+
+    .card_article_botones_original{
+        font-size: 12px;
+    }
+
+   
+
+ }
