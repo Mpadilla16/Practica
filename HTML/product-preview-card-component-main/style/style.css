@@ -11996,7 +11996,7 @@ body {
 
 .card_article_descripcion {
   font-family: Montserrat;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .card_article_botones_descuento {
@@ -12020,11 +12020,18 @@ body {
   font-weight: 300;
 }
 
+button:hover {
+  background-color: hsl(157, 53%, 17%);
+}
+
 @media (min-width: 992px) and (max-width: 1399.98px) {
   .card_article_producto {
     font-size: 12px;
   }
   .card_article_botones_original {
     font-size: 12px;
+  }
+  .card_article_descripcion {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=style.css.map */
