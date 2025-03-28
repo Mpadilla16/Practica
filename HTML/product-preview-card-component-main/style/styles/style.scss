@@ -25,6 +25,11 @@ body {
     background-color: hsl(30, 38%, 92%);
 }
 
+.card{
+    width: 100%;  // Hace que la tarjeta sea responsiva
+    max-width: 19rem;  // Tamaño base (ajustable según diseño)
+}
+
 .card_article_producto {
     font-family: Montserrat;
     font-size: 10px;
@@ -69,6 +74,10 @@ button:hover{
 
 ////  estilos pantallas lg en adelante
 @include media-breakpoint-between(lg, xxl) { 
+
+    .card{
+        max-width: 40rem;
+    }
 
     .card_article_producto{
         font-size: 12px;
