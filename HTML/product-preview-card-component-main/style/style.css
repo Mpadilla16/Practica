@@ -12025,8 +12025,9 @@ body {
   font-weight: 300;
 }
 
-button:hover {
-  background-color: hsl(157, 53%, 17%);
+.article_button:hover {
+  background-color: hsl(158, 36%, 25%);
+  color: white;
 }
 
 @media (min-width: 992px) and (max-width: 1399.98px) {

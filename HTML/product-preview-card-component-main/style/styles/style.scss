@@ -26,8 +26,8 @@ body {
 }
 
 .card{
-    width: 100%;  // Hace que la tarjeta sea responsiva
-    max-width: 19rem;  // Tamaño base (ajustable según diseño)
+    width: 100%;  
+    max-width: 19rem;  
 }
 
 .card_article_producto {
@@ -66,10 +66,12 @@ body {
     font-size: 11px;
     height: 40px;
     font-weight: 300; 
+   
 }
 
-button:hover{
-    background-color: hsl(157, 53%, 17%);
+.article_button:hover {
+    background-color: hsl(158, 36%, 25%); 
+    color:white;
 }
 
 ////  estilos pantallas lg en adelante
