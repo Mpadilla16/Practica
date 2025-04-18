@@ -14,3 +14,14 @@ if (numero1 > numero2 && numero1 > numero3) {
     console.log("Hay números iguales.");
 }
 
+switch(expression) {
+    case x:
+      // code block
+      break;
+    case y:
+      // code block
+      break;
+    default:
+      // code block
+  }
+
