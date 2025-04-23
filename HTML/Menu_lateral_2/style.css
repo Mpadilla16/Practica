@@ -29,22 +29,25 @@ body {
 
 /**sidebar*/
 .sidebar {
-
     position: fixed;
     /*para que siempre se encuentre sobre todo el contenido*/
     display: flex;
     flex-direction: column;
     /*Contenido en columnas*/
     align-items: center;
+    justify-content: space-between;
     width: 15rem;
     height: 100%;
-    padding: 1.4rem 1rem;
+    padding: 1.4rem 1rem 0 1rem;
     background-color: var(--color-surface);
     box-shadow: 1px 0px 10px var(--shadow-border);
     transition: width 0.5s ease;
 
 }
-
+/*header*/
+.header{
+    width: 100%;
+}
 /*MEnu button*/
 .menu-btn {
 
@@ -73,6 +76,7 @@ body {
 .brand {
 
     width: 100%;
+    display: flex;
     align-items: center;
     gap: 0.7rem;
     padding-left: 0.455rem;
@@ -94,6 +98,7 @@ body {
 /*Menu container*/
 .menu-container {
     display: flex;
+    height: 100%;
     flex-direction: column;
     align-items: center;
 }
@@ -180,6 +185,9 @@ background-color: var(--color-bg);
     font-size: 0.8rem;
     font-weight: 500;
 }
+.sub-menu{
+    height: 0;
+}
 
 
 .sub-menu .sub-menu-link{
@@ -189,6 +197,7 @@ background-color: var(--color-bg);
     font-size: 0.75rem;
     font-weight: 500;
     color: var(--color-text-secondary);
+    text-decoration: none;
     border-radius: 0.3rem;
 }
 
@@ -199,6 +208,57 @@ background-color: var(--color-bg);
     position: absolute;
     height: 100%;
     width: 0.07rem;
-    margin-left: 1.4rem;
+    margin-left: 1.2rem;
     background-color: var(--color-border);
+}
+
+/*Footer*/
+.footer{
+    width: 100%;
+    padding: 1rem 0;
+    box-shadow: 0 -0.02rem 0 0 var(--color-border);
+
+}
+.user{
+    display: flex;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.user-img{
+    display: flex;
+    margin: 0 0.7rem 0 0.35rem;
+    border-radius: 50%;
+}
+.user-data{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.user-data .name{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text-primary);
+}
+.user-data .email{
+    font-size: 0.7rem;
+    color: var(--color-text-secondary);
+
+}
+.user-icon{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--color-text-secondary);
+}
+/*Imagen usuario*/
+.user-img img{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+
 }
