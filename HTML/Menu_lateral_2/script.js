@@ -1,13 +1,35 @@
-const menuItemDropDow = document.querySelectorAll(".menu-item-dropdow");
+const menuItemsDropDown = document.querySelectorAll('.menu-item-dropdown');
+const sidebar = document.getElementById('sidebar');
+const menuBtn = document.getElementById('menu-btn');
 
-menuItemDropDow.forEach((menuItem)=>{
-    menuItem.addEventListener('click'()=>{
+menuBtn .addEventListener('click', ()=>{
+    sidebar.classList.toggle('minimize');
+});
+
+menuItemsDropDown.forEach((menuItem) => {
+    menuItem.addEventListener('click', () => {
         const subMenu = menuItem.querySelector('.sub-menu');
-        menuItem.class  {
-            constructor(parameters) {
+        const isActive = menuItem.classList.toggle('sub-menu-toggle');
+        if (subMenu) {
+            if (isActive) {
                 
+                subMenu.style.height = `${subMenu.scrollHeight + 6}px`;
+                subMenu.style.padding = '0.2rem 0';
+            } else {
+                subMenu.style.height = '0';
+                subMenu.style.padding = '0';
             }
         }
-    });
+        menuItemsDropDown.forEach((item)=>{
+            if(item !== menuItem){
+                const otherSubmenu = item.querySelector('.sub-menu');
+                if(otherSubmenu){
+                    item.classList.remove('sub-menu-toggle');
+                    otherSubmenu.style.height = '0';
+                    otherSubmenu.stytle.padding = '0';
+                }
+            }
 
+        });
+    });
 });
