@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
+
+body {
+  background-color: hsl(0, 0%, 100%) !important;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.tarjeta-1 {
+ 
+
+  border-top: solid 5px;
+  border-color: hsl(180, 62%, 55%);
+}
+
+.tarjeta-2 {
+  border-top: solid 5px;
+  border-color: hsl(0, 78%, 62%);
+}
+
+.tarjeta-3 {
+  border-top: solid 5px;
+  border-color: hsl(34, 97%, 64%);
+}
+
+.tarjeta-4 {
+  border-top: solid 5px;
+  border-color: hsl(212, 86%, 64%);
+}
+
+article p {
+  font-size: 13px;
+}
+
+h6,
+.fw-semibold {
+  color: hsl(235, 6%, 37%);
+}
+
+div p {
+  color: hsl(212, 6%, 44%);
+  font-size: 12px;
+}
