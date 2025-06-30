@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author Maria
  */
-public class Cajero {
+public class 1Cajero {
     
      public static void main(String[] args) {
          

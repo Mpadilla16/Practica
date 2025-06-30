@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Grey-500: hsl(234, 12%, 34%);
+    --Grey-400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--White);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    color: var(--Grey-400);
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+b{
+    color: var(--Grey-400);
+    font-weight: 600;
+    font-size: 21px;
+}
+p{
+    max-width: 500px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--Grey-400);
+    margin-top: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-cyan,  .card-red,  .card-orange,  .card-blue{
+    background-color: rgb(196, 30, 30);
+    max-width: 90%;
+    
+}
+.card-cyan{
+    border-top: solid 3px var(--Cyan);
+}
+.card-red{
+    border-top: solid 3px var(--Red);
+}
+.card-orange{
+    border-top: solid 3px var(--Orange);
+}
+.card-blue{
+    border-top: solid 3px var(--Blue);
+}
